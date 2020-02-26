@@ -1,0 +1,23 @@
+print('Please give me a number' )
+num = int(input())
+
+# Tells if input number is even or odd
+if num % 2 == 1:
+    print('That is an odd number.')
+if num % 2 == 0:
+    print('That is an even number')
+# Figures out if it is multiple of four, no remainder from division.
+if num % 4 == 0:
+    print('That is a multiple of four also')
+
+# Ask the user for two numbers, something to perform division
+print('Need more numbers' )
+num1 = int(input())
+print('One more time')
+num2 = int(input())
+
+# Tells the user if they made an evenly divisible number
+if num1 % num2 == 0:
+    print('That was evenly divisible')
+else:
+    print('Try again')
